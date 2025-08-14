@@ -1,0 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+/* Sembunyikan scrollbar untuk browser berbasis WebKit (Chrome, Safari, Edge) */
+#skills-container::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+/* Sembunyikan scrollbar untuk Firefox */
+#skills-container {
+  scrollbar-width: none;
+}
+
+/* Sembunyikan scrollbar secara umum untuk IE/Edge */
+#skills-container {
+  -ms-overflow-style: none;
+}
